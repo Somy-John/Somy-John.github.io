@@ -39,7 +39,7 @@ function findLocation(){
    while(Unbap.name.indexOf(input = prompt("사는 곳을 알아볼 언밥이의 이름을 입력하세요"))==-1){
       alert("이름을 똑바로 입력해주세용");
    }
-   console.log(input.slice(1)+"이는 "+Unbap.Location[Unbap.name.indexOf(input)]+"에 살아요 :)\n");
+   alert(input.slice(1)+"이는 "+Unbap.Location[Unbap.name.indexOf(input)]+"에 살아요 :)\n");
 }
 findLocation();
 
@@ -48,7 +48,7 @@ whereIsSomyeong=()=> {
    while((input = prompt("나는 지금?"))!="배고프다"){
       alert("분명 ");
    }
-   console.log("끄덕끄덕 'v'\n");
+   alert("끄덕끄덕 'v'\n");
 }
 whereIsSomyeong();
 
@@ -63,5 +63,5 @@ function dummyPromise(){
 }
 dummyPromise().then(function(resolvedData) {
    alert(resolvedData);
-   console.log("ㅋㅋㄹㅃㅃ");
+   alert("ㅋㅋㄹㅃㅃ");
 });
