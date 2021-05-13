@@ -46,7 +46,7 @@ findLocation();
 whereIsSomyeong=()=> {
    let input = 0;
    while((input = prompt("나는 지금?"))!="배고프다"){
-      alert("아 이걸 모르누 ;;;;;");
+      alert("분명 ");
    }
    console.log("끄덕끄덕 'v'\n");
 }
