@@ -45,7 +45,7 @@ findLocation();
 
 whereIsSomyeong=()=> {
    let input = 0;
-   while((input = prompt("소명이가 사는 곳을 입력하쎼용"))!=Unbap.Location[Unbap.name.indexOf("전소명")]){
+   while((input = prompt("나는 지금?"))!="배고프다"){
       alert("아 이걸 모르누 ;;;;;");
    }
    console.log("끄덕끄덕 'v'\n");
